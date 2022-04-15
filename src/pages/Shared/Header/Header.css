@@ -3,22 +3,5 @@
     margin-right: 20px;
     padding: 2px;
     font-size: 18px;
-}
-.nav-style a:hover {
-    color: red !important;
-}
-
-.dropdown a {
-    color: #fff !important;
-}
-
-.dropdown-menu {
-    background-color: #212529 !important;
-}
-
-/* responsive */
-@media only screen and (max-width:576px) {
-    /* .logo {
-        width: 300px;
-    } */
+    color: #fff !important
 }

@@ -3,6 +3,7 @@ import './Header.css'
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import logo from '../../../images/logo.png'
 import { Link } from 'react-router-dom';
+import { AiOutlineShoppingCart } from 'react-icons/ai';
 
 const Header = () => {
 
@@ -16,10 +17,10 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto"></Nav>
-                        <Nav className='nav-style'>
-                            <Nav.Link as={Link} to='/'>Home</Nav.Link>
-                            <Nav.Link as={Link} to='/login'>Login</Nav.Link>
-                            <Nav.Link as={Link} to='/signup'>Signup</Nav.Link>
+                        <Nav className='nav-style my-2'>
+                            <Nav.Link as={Link} to='/cart' className='fs-3'><AiOutlineShoppingCart /></Nav.Link>
+                            <Nav.Link as={Link} to='/login' className='mt-2'>Login</Nav.Link>
+                            <Nav.Link as={Link} to='/signup' className='mt-2 bg-danger rounded-pill px-3'>Signup</Nav.Link>
                             
                         </Nav>
                     </Navbar.Collapse>

@@ -7,12 +7,12 @@ import Home from './pages/Home/Home/Home';
 import Cart from './pages/Shared/Cart/Cart';
 import Login from './pages/Account/Login/Login';
 import Signup from './pages/Account/Signup/Signup';
-import Navbar from './pages/Shared/Navbar/Navbar';
+import Header from './pages/Shared/Header/Header';
 
 const App = () => {
     return (
         <div>
-            <Navbar/>
+            <Header/>
             <Routes>
                 <Route path='/' element={<Home/>}></Route>
                 <Route path='/cart' element={<Cart/>}></Route>

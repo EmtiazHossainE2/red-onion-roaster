@@ -1,0 +1,12 @@
+.nav-style div a {
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 2px;
+    font-size: 23px;
+}
+/* .lunch{
+    color: red !important;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 2px solid red;
+} */

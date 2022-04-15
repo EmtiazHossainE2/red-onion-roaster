@@ -1,9 +1,10 @@
 import React from 'react';
+import Lunch from '../Lunch/Lunch';
 
 const Food = () => {
     return (
-        <div>
-            <h2>this is food section</h2>
+        <div >
+            <Lunch></Lunch>
         </div>
     );
 };

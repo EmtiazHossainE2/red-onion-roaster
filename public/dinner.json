@@ -1,0 +1,50 @@
+[
+    {
+        "id" : "3107" ,
+        "name" : "Salmon with Grapefruit"  ,
+        "nameId" : "dinner-1" ,
+        "price" : "9.99" ,
+        "img" : "images/dinner/dinner1.png" ,
+        "title" : "Feel free to change up the protein or vegetables depending on what you have in your fridge."
+    },
+    {
+        "id" : "3108" ,
+        "name" : "Lemony Salmon Piccata"  ,
+        "nameId" : "dinner-2" ,
+        "price" : "10.99" ,
+        "img" : "images/dinner/dinner2.png" ,
+        "title" : "This simplified version of the Indian classic combines chicken, tomato sauce, and a slew of aromatic"
+    },
+    {
+        "id" : "3109" ,
+        "name" : "Pork Tenderloin"  ,
+        "nameId" : "dinner-3" ,
+        "price" : "12.99" ,
+        "img" : "images/dinner/dinner3.png" ,
+        "title" : "It takes all of five minutes to fry some bacon + an egg. (Plus some green onions if you're feelin' fancy.)"
+    },
+    {
+        "id" : "31010" ,
+        "name" : "French Fries "  ,
+        "nameId" : "dinner-4" ,
+        "price" : "8.99" ,
+        "img" : "images/dinner/dinner4.png" ,
+        "title" : "The only thing better than one super easy dinner is being able to make *four* of them at once."
+    },
+    {
+        "id" : "31011" ,
+        "name" : "Garlic Butter Baked"  ,
+        "nameId" : "dinner-5" ,
+        "price" : "6.99" ,
+        "img" : "images/dinner/dinner5.png" ,
+        "title" : "Chopping the beef into small pieces first means everything cooks through in about five minutes."
+    },
+    {
+        "id" : "31012" ,
+        "name" : "Baked Chiken"  ,
+        "nameId" : "dinner-6" ,
+        "price" : "9.99" ,
+        "img" : "images/dinner/dinner6.png" ,
+        "title" : "Line the sheet pan with parchment or foil for the quickest cleanup — then serve over rice, stuffed into a pita, or on its own."
+    }
+]

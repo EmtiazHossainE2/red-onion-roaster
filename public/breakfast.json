@@ -1,0 +1,50 @@
+[
+    {
+        "id" : "31013" ,
+        "name" : "Bagel and cream"  ,
+        "nameId" : "breakfast-1" ,
+        "price" : "6.99" ,
+        "img" : "images/breakfast/breakfast1.png" ,
+        "title" : "This vegan-friendly version swaps eggs for protein-packed chickpeas, and makes enough for four."
+    },
+    {
+        "id" : "31014" ,
+        "name" : "Breakfast sandwich"  ,
+        "nameId" : "breakfast-2" ,
+        "price" : "9.99" ,
+        "img" : "images/breakfast/breakfast2.png" ,
+        "title" : "You can make these in the oven or on the grill in just about 20 minutes — and thanks to the foil, cleanup is a total breeze."
+    },
+    {
+        "id" : "31015" ,
+        "name" : "Baked Chiken"  ,
+        "nameId" : "breakfast-3" ,
+        "price" : "10.99" ,
+        "img" : "images/breakfast/breakfast3.png" ,
+        "title" : "This budget-friendly version takes pantry staples — like black beans and canned corn — and roasts everything on a sheet pan."
+    },
+    {
+        "id" : "31016" ,
+        "name" : "Eggs BEnedict"  ,
+        "nameId" : "breakfast-4" ,
+        "price" : "8.99" ,
+        "img" : "images/breakfast/breakfast4.png" ,
+        "title" : "Better than takeout — and better for you, too. For extra protein and fiber, swap in soba noodles."
+    },
+    {
+        "id" : "31017" ,
+        "name" : "Toast Croissant Fried"  ,
+        "nameId" : "breakfast-5" ,
+        "price" : "19.99" ,
+        "img" : "images/breakfast/breakfast5.png" ,
+        "title" : "The easy sauce — which includes soy sauce, garlic, and ginger — comes together quickly and packs a ton of flavor."
+    },
+    {
+        "id" : "31018" ,
+        "name" : "Fried Egg Toast Brunch"  ,
+        "nameId" : "breakfast-6" ,
+        "price" : "7.99" ,
+        "img" : "images/breakfast/breakfast6.png" ,
+        "title" : "Just make sure you are draining your salmon very well before mixing it together with your patty ingredients, or else your patty might be a little hard to shape."
+    }
+]

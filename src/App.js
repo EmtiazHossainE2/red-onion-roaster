@@ -15,17 +15,19 @@ import Dinner from './pages/Home/Food/Dinner/Dinner';
 const App = () => {
     return (
         <div>
-            <Header/>
+            <Header />
             <Routes>
-                <Route path='/' element={<Home/>}></Route>
-                <Route path='/home' element={<Home/>}></Route>
-                <Route path='/breakfast' element={<Breakfast/>}></Route>
-                <Route path='/lunch' element={<Lunch/>}></Route>
-                <Route path='/dinner' element={<Dinner/>}></Route>
-                <Route path='/cart' element={<Cart/>}></Route>
-                <Route path='/login' element={<Login/>}></Route>
-                <Route path='/signup' element={<Signup/>}></Route>
-                <Route path='*' element={<NotFound/>}></Route>
+                <Route path='/' element={<Home />}>
+                    <Route path='/' element={<Lunch />}></Route>
+                    <Route path='/lunch' element={<Lunch />}></Route>
+                    <Route path='/breakfast' element={<Breakfast />}></Route>
+                    <Route path='/dinner' element={<Dinner />}></Route>
+                </Route>
+                <Route path='/home' element={<Home />}></Route>
+                <Route path='/cart' element={<Cart />}></Route>
+                <Route path='/login' element={<Login />}></Route>
+                <Route path='/signup' element={<Signup />}></Route>
+                <Route path='*' element={<NotFound />}></Route>
             </Routes>
         </div>
     );

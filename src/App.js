@@ -12,6 +12,7 @@ import Breakfast from './pages/Home/Food/Breakfast/Breakfast';
 import Lunch from './pages/Home/Food/Lunch/Lunch';
 import Dinner from './pages/Home/Food/Dinner/Dinner';
 import FoodList from './pages/FoodList/FoodList';
+import Footer from './pages/Shared/Footer/Footer';
 
 const App = () => {
     return (
@@ -31,6 +32,7 @@ const App = () => {
                 <Route path='/signup' element={<Signup />}></Route>
                 <Route path='*' element={<NotFound />}></Route>
             </Routes>
+            <Footer />
         </div>
     );
 };

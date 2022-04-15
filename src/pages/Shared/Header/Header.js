@@ -19,9 +19,9 @@ const Header = () => {
                         <Nav className="me-auto"></Nav>
                         <Nav className='nav-style my-1'>
                             <Nav.Link as={Link} to='/cart' className='fs-4 text-dark'><AiOutlineShoppingCart /></Nav.Link>
+                            <Nav.Link as={Link} to='/foodlist' className='mt-2 text-dark fw-bold'>Food List</Nav.Link>
                             <Nav.Link as={Link} to='/login' className='mt-2 text-dark fw-bold'>Login</Nav.Link>
                             <Nav.Link as={Link} to='/signup' className='mt-2 bg-danger text-light rounded-pill px-3'>Signup</Nav.Link>
-                            
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

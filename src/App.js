@@ -11,6 +11,7 @@ import Header from './pages/Shared/Header/Header';
 import Breakfast from './pages/Home/Food/Breakfast/Breakfast';
 import Lunch from './pages/Home/Food/Lunch/Lunch';
 import Dinner from './pages/Home/Food/Dinner/Dinner';
+import FoodList from './pages/FoodList/FoodList';
 
 const App = () => {
     return (
@@ -24,6 +25,7 @@ const App = () => {
                     <Route path='/dinner' element={<Dinner />}></Route>
                 </Route>
                 <Route path='/home' element={<Home />}></Route>
+                <Route path='/foodlist' element={<FoodList />}></Route>
                 <Route path='/cart' element={<Cart />}></Route>
                 <Route path='/login' element={<Login />}></Route>
                 <Route path='/signup' element={<Signup />}></Route>

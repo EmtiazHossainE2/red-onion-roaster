@@ -1,146 +1,146 @@
 [
     {
         "id" : "3101" ,
-        "name " : "Healthy Meal Plan"  ,
+        "name" : "Healthy Meal Plan"  ,
         "nameId" : "lunch-1" ,
         "price" : "23.99" ,
-        "img" : "https://i.ibb.co/Hn5BVZn/lunch1.png" ,
+        "img" : "images/lunch/lunch1.png" ,
         "title" : "It's one of our favorite budget meals for vegetarians—or anyone looking to eat a little less meat."
     },
     {
         "id" : "3102" ,
-        "name " : "Fried Chicken Bento"  ,
+        "name" : "Fried Chicken Bento"  ,
         "nameId" : "lunch-2" ,
         "price" : "9.99" ,
-        "img" : "https://i.ibb.co/rfx7Vdw/lunch2.png" ,
+        "img" : "images/lunch/lunch2.png" ,
         "title" : "This warm-weather favorite is made with a blend of mushrooms and ground chicken or turkey."
     },
     {
         "id" : "3103" ,
-        "name " : "Tarragon-Rubbed-Salmon"  ,
+        "name" : "Tarragon-Rubbed-Salmon"  ,
         "nameId" : "lunch-3" ,
         "price" : "6.99" ,
-        "img" : "https://i.ibb.co/MG8r1Bt/lunch3.png" ,
+        "img" : "images/lunch/lunch3.png" ,
         "title" : "the menu when you're trying to eat affordably, think again."
     },
     {
         "id" : "3104" ,
-        "name " : "Indian Lunch"  ,
+        "name" : "Indian Lunch"  ,
         "nameId" : "lunch-4" ,
         "price" : "8.99" ,
-        "img" : "https://i.ibb.co/b6YZj0j/lunch4.png" ,
+        "img" : "images/lunch/lunch4.png" ,
         "title" : " all about quick-cooking red split lentils meeting their perfect match with hearty spiced greens."
     },
     {
         "id" : "3105" ,
-        "name " : "Beef Steak"  ,
+        "name" : "Beef Steak"  ,
         "nameId" : "lunch-5" ,
         "price" : "15.99" ,
-        "img" : "https://i.ibb.co/D9sCpff/lunch5.png" ,
+        "img" : "images/lunch/lunch5.png" ,
         "title" : "Whole roasted cauliflower, basted in spicy butter sauce, is sure to impress with its bed of lemony miso mayo"
     },
     {
         "id" : "3106" ,
-        "name " : "Honey-Soy-Glazed"  ,
+        "name" : "Honey-Soy-Glazed"  ,
         "nameId" : "lunch-6" ,
         "price" : "7.99" ,
-        "img" : "https://i.ibb.co/XXSpXwX/lunch6.png" ,
+        "img" : "images/lunch/lunch6.png" ,
         "title" : "it into a one-pan, stovetop-only version with mushrooms and spinach."
     },
     {
         "id" : "3107" ,
-        "name " : "Salmon with Grapefruit"  ,
+        "name" : "Salmon with Grapefruit"  ,
         "nameId" : "dinner-1" ,
         "price" : "9.99" ,
-        "img" : "https://i.ibb.co/0tH9t9t/dinner1.png" ,
+        "img" : "images/dinner/dinner1.png" ,
         "title" : "Feel free to change up the protein or vegetables depending on what you have in your fridge."
     },
     {
         "id" : "3108" ,
-        "name " : "Lemony Salmon Piccata"  ,
+        "name" : "Lemony Salmon Piccata"  ,
         "nameId" : "dinner-2" ,
         "price" : "10.99" ,
-        "img" : "https://i.ibb.co/GJRwcRG/dinner2.png" ,
+        "img" : "images/dinner/dinner2.png" ,
         "title" : "This simplified version of the Indian classic combines chicken, tomato sauce, and a slew of aromatic"
     },
     {
         "id" : "3109" ,
-        "name " : "Pork Tenderloin"  ,
+        "name" : "Pork Tenderloin"  ,
         "nameId" : "dinner-3" ,
         "price" : "12.99" ,
-        "img" : "https://i.ibb.co/dpPDJVn/dinner3.png" ,
+        "img" : "images/dinner/dinner3.png" ,
         "title" : "It takes all of five minutes to fry some bacon + an egg. (Plus some green onions if you're feelin' fancy.)"
     },
     {
         "id" : "31010" ,
-        "name " : "French Fries "  ,
+        "name" : "French Fries "  ,
         "nameId" : "dinner-4" ,
         "price" : "8.99" ,
-        "img" : "https://i.ibb.co/zV001pH/dinner4.png" ,
+        "img" : "images/dinner/dinner4.png" ,
         "title" : "The only thing better than one super easy dinner is being able to make *four* of them at once."
     },
     {
         "id" : "31011" ,
-        "name " : "Garlic Butter Baked"  ,
+        "name" : "Garlic Butter Baked"  ,
         "nameId" : "dinner-5" ,
         "price" : "6.99" ,
-        "img" : "https://i.ibb.co/XWZ7f3c/dinner5.png" ,
+        "img" : "images/dinner/dinner5.png" ,
         "title" : "Chopping the beef into small pieces first means everything cooks through in about five minutes."
     },
     {
         "id" : "31012" ,
-        "name " : "Baked Chiken"  ,
+        "name" : "Baked Chiken"  ,
         "nameId" : "dinner-6" ,
         "price" : "9.99" ,
-        "img" : "https://i.ibb.co/RhLzVKh/dinner6.png" ,
+        "img" : "images/dinner/dinner6.png" ,
         "title" : "Line the sheet pan with parchment or foil for the quickest cleanup — then serve over rice, stuffed into a pita, or on its own."
     },
     {
         "id" : "31013" ,
-        "name " : "Bagel and cream"  ,
+        "name" : "Bagel and cream"  ,
         "nameId" : "breakfast-1" ,
         "price" : "6.99" ,
-        "img" : "https://i.ibb.co/Vwvdptf/breakfast1.png" ,
+        "img" : "images/breakfast/breakfast1.png" ,
         "title" : "This vegan-friendly version swaps eggs for protein-packed chickpeas, and makes enough for four."
     },
     {
         "id" : "31014" ,
-        "name " : "Breakfast sandwich"  ,
+        "name" : "Breakfast sandwich"  ,
         "nameId" : "breakfast-2" ,
         "price" : "9.99" ,
-        "img" : "https://i.ibb.co/KWMYPnz/breakfast2.png" ,
+        "img" : "images/breakfast/breakfast2.png" ,
         "title" : "You can make these in the oven or on the grill in just about 20 minutes — and thanks to the foil, cleanup is a total breeze."
     },
     {
         "id" : "31015" ,
-        "name " : "Baked Chiken"  ,
+        "name" : "Baked Chiken"  ,
         "nameId" : "breakfast-3" ,
         "price" : "10.99" ,
-        "img" : "https://i.ibb.co/r4p1D3q/breakfast3.png" ,
+        "img" : "images/breakfast/breakfast3.png" ,
         "title" : "This budget-friendly version takes pantry staples — like black beans and canned corn — and roasts everything on a sheet pan."
     },
     {
         "id" : "31016" ,
-        "name " : "Eggs BEnedict"  ,
+        "name" : "Eggs BEnedict"  ,
         "nameId" : "breakfast-4" ,
         "price" : "8.99" ,
-        "img" : "https://i.ibb.co/3st6YrL/breakfast4.png" ,
+        "img" : "images/breakfast/breakfast4.png" ,
         "title" : "Better than takeout — and better for you, too. For extra protein and fiber, swap in soba noodles."
     },
     {
         "id" : "31017" ,
-        "name " : "Toast Croissant Fried"  ,
+        "name" : "Toast Croissant Fried"  ,
         "nameId" : "breakfast-5" ,
         "price" : "19.99" ,
-        "img" : "https://i.ibb.co/Cz4fSjw/breakfast5.png" ,
+        "img" : "images/breakfast/breakfast5.png" ,
         "title" : "The easy sauce — which includes soy sauce, garlic, and ginger — comes together quickly and packs a ton of flavor."
     },
     {
         "id" : "31018" ,
-        "name " : "Fried Egg Toast Brunch"  ,
+        "name" : "Fried Egg Toast Brunch"  ,
         "nameId" : "breakfast-6" ,
         "price" : "7.99" ,
-        "img" : "https://i.ibb.co/qB4xvKR/breakfast6.png" ,
+        "img" : "images/breakfast/breakfast6.png" ,
         "title" : "Just make sure you are draining your salmon very well before mixing it together with your patty ingredients, or else your patty might be a little hard to shape."
     }
     

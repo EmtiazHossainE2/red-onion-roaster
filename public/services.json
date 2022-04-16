@@ -1,0 +1,21 @@
+[
+    
+    {
+        "id" : "1033" ,
+        "name" : "Home Delivery"  ,
+        "img" : "images/services/adult-blur-blurred-background-687824.png" ,
+        "title" : "Offering fast and easy pickup and delivery for foods, drinks, and groceries, Postmates is one of the most popular delivery apps on the market. "
+    },
+    {
+        "id" : "1031" ,
+        "name" : "Fast Delivery"  ,
+        "img" : "images/services/chef-cook-food-33614.png" ,
+        "title" : " Keep your systems in sync with automated web hook based notification each time link is paid and how we dream about our future .With excellent customer service, Customers can count on us to deliver"
+    },
+    {
+        "id" : "1032" ,
+        "name" : "A Good Auto Responder"  ,
+        "img" : "images/services/architecture-building-city-2047397.png" ,
+        "title" : " Fast Deliver is a fast growing and promising courier and parcel service in Bangladesh. With excellent customer service, Customers can count on us to deliver"
+    }
+]

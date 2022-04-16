@@ -4,11 +4,12 @@ const useFoods = () => {
     const [foods , setFoods] = useState([])
 
     useEffect(() => {
-        fetch('items.json')
+        const url = `https://raw.githubusercontent.com/EmtiazHossainE2/red-onion-roaster/main/public/items.json`
+        fetch(url)
         .then(res => res.json())
         .then(data => setFoods(data))
     },[])
     
-    return [foods ]
+    return [foods,setFoods ]
 }
 export default useFoods;

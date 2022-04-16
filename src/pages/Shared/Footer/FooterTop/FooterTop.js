@@ -8,7 +8,7 @@ const FooterTop = () => {
             <div className="row">
                 <div className="col-md-6 col-sm-12">
                     <div className='mt-5 logo'>
-                        <img className='w-25' src={logo} alt="" srcset="" />
+                        <img className='w-25' src={logo} alt=""  />
                     </div>
                 </div>
                 <div className="col-md-6 col-sm-12">

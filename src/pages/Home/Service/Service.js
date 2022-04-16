@@ -20,7 +20,7 @@ const Service = (props) => {
                     <div className="col-md-10">
                         <h5 className='py-2'>{name}</h5>
                         <p className='py-2'>{title}</p>
-                        <Link to='/'><button className='btn btn-link text-decoration-none fs-5 fw-bold ps-0'>See more <BsFillArrowRightCircleFill /> </button></Link>
+                        <Link to='/'><button className='btn btn-link text-danger text-decoration-none fs-5 fw-bold ps-0'>See more <BsFillArrowRightCircleFill /> </button></Link>
                     </div>
                 </div>
             </div>

@@ -13,6 +13,7 @@ import Lunch from './pages/Home/Food/Lunch/Lunch';
 import Dinner from './pages/Home/Food/Dinner/Dinner';
 import FoodList from './pages/FoodList/FoodList';
 import Footer from './pages/Shared/Footer/Footer';
+import Details from './components/Details/Details';
 
 const App = () => {
     return (
@@ -27,6 +28,7 @@ const App = () => {
                 </Route>
                 <Route path='/home' element={<Home />}></Route>
                 <Route path='/foodlist' element={<FoodList />}></Route>
+                <Route path='/details/:detailsId' element={<Details></Details>}></Route>
                 <Route path='/cart' element={<Cart />}></Route>
                 <Route path='/login' element={<Login />}></Route>
                 <Route path='/signup' element={<Signup />}></Route>

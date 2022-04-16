@@ -14,11 +14,13 @@ import Dinner from './pages/Home/Food/Dinner/Dinner';
 import FoodList from './pages/FoodList/FoodList';
 import Footer from './pages/Shared/Footer/Footer';
 import Details from './components/Details/Details';
+import  { Toaster } from 'react-hot-toast';
 
 const App = () => {
     return (
         <div>
             <Header />
+            <Toaster />
             <Routes>
                 <Route path='/' element={<Home />}>
                     <Route path='/' element={<Lunch />}></Route>

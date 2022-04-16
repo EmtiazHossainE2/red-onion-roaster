@@ -25,7 +25,7 @@ const FooterTop = () => {
                             <div className='important-link'>
                                 <Link to='/'>get help</Link>
                                 <Link to='/'>read FAQs</Link>
-                                <Link to='/signup'>view all cities</Link>
+                                <Link to='/'>view all cities</Link>
                                 <Link to='/'>restaurant near you</Link>
                             </div>
                         </div>

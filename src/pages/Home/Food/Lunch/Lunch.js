@@ -5,7 +5,8 @@ const Lunch = () => {
     const [lunch, setLunch] = useState([])
 
     useEffect(() => {
-        fetch('lunch.json')
+        const url = `https://raw.githubusercontent.com/EmtiazHossainE2/red-onion-roaster/main/public/lunch.json`
+        fetch(url)
         .then(res => res.json())
         .then(data => setLunch(data))
     },[])

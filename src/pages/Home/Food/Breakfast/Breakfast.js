@@ -6,7 +6,8 @@ const Breakfast = () => {
     const [breakFast, setBreakFast] = useState([])
 
     useEffect(() => {
-        fetch('breakfast.json')
+        const url = `https://raw.githubusercontent.com/EmtiazHossainE2/red-onion-roaster/main/public/breakfast.json`
+        fetch(url)
         .then(res => res.json())
         .then(data => setBreakFast(data))
     },[])

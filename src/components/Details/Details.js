@@ -6,8 +6,7 @@ const Details = () => {
     const {detailsId} = useParams()
     const [foods] = useFoods()
 
-    const singleItem = foods.find(
-        (food) => (food.id) === (detailsId)
+    const singleItem = foods.find((food) => food.id === (detailsId)
     )
     // console.log(singleItem)
 

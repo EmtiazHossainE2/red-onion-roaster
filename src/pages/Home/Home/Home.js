@@ -10,7 +10,7 @@ const Home = () => {
             <Banner></Banner>
             <Food></Food>
             <div className='text-center my-4'>
-                <Link to='/foodlist'>
+                <Link to='/cart'>
                 <button className='btn btn-danger fw-bold'>Checkout your food</button>
                 </Link>
             </div>

@@ -4,10 +4,12 @@ import google from '../../../images/social/Google.png'
 import facebook from '../../../images/social/facebook.png'
 import github from '../../../images/social/github.png'
 import twitter from '../../../images/social/Twitter.png'
+import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import auth from '../../../Firebase/firebase.init';
 
 const SocialAccount = () => {
 
-
+    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
 
     return (
         <div >
@@ -18,7 +20,7 @@ const SocialAccount = () => {
             </div>
             
             <div className='social-icon d-flex align-items-center justify-content-center container'>
-                <img  src={google} alt="" />
+                <img onClick={() => signInWithGoogle()} src={google} alt="" />
                 <img  src={facebook} alt="" />
                 <img  src={github} alt="" />
                 <img  src={twitter} alt="" />

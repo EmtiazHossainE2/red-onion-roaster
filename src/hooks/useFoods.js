@@ -3,9 +3,8 @@ import { useEffect, useState } from "react"
 const useFoods = () => {
     const [foods , setFoods] = useState([])
 
-    useEffect(() => {
-        const url = `https://raw.githubusercontent.com/EmtiazHossainE2/red-onion-roaster/main/public/items.json`
-        fetch(url)
+    useEffect(()=>{
+        fetch('http://localhost:5000/service')
         .then(res => res.json())
         .then(data => setFoods(data))
     },[])

@@ -12,9 +12,6 @@ const Login = () => {
     const passwordRef = useRef('');
     const navigate = useNavigate();
 
-
-
-
     //handle log in
     const handleLogin = e => {
         e.preventDefault()

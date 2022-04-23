@@ -16,7 +16,12 @@ const AddItems = () => {
         .then(res => res.json())
         .then(result => {
             console.log(result);
+            alert('User create successfully ')
+            // handleSubmit.reset()
         })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
     };
 
 

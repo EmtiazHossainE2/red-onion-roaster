@@ -16,6 +16,7 @@ import Footer from './pages/Shared/Footer/Footer';
 import Details from './components/Details/Details';
 import  { Toaster } from 'react-hot-toast';
 import AddItems from './components/AddItems/AddItems';
+import ManageItems from './components/ManageItems/ManageItems';
 
 const App = () => {
     return (
@@ -32,6 +33,7 @@ const App = () => {
                 </Route>
                 <Route path='/home' element={<Home />}></Route>
                 <Route path='/additems' element={<AddItems />}></Route>
+                <Route path='/manageitems' element={<ManageItems />}></Route>
                 <Route path='/foodlist' element={<FoodList />}></Route>
                 <Route path='/cart' element={<Cart />}></Route>
                 <Route path='/login' element={<Login />}></Route>

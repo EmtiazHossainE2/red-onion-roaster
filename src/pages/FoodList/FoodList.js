@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import SingleFood from '../../components/SingleFood/SingleFood';
 import useFoods from '../../hooks/useFoods';
 import Banner from '../Home/Banner/Banner';
 import './FoodList.css'
 const FoodList = () => {
-    const [foods,setFoods ] = useFoods()
+    const [foods] = useFoods()
     
     return (
         <div className='container my-5'>

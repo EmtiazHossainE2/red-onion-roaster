@@ -1,16 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import SingleFood from '../../../../components/SingleFood/SingleFood';
+import useGetCategory from '../../../../hooks/useGetCategory';
 import './Lunch.css'
 const Lunch = () => {
-    const [lunch, setLunch] = useState([])
 
-    useEffect(() => {
-        const url = `https://raw.githubusercontent.com/EmtiazHossainE2/red-onion-roaster/main/public/lunch.json`
-        fetch(url)
-        .then(res => res.json())
-        .then(data => setLunch(data))
-    },[])
-
+    const lunch = useGetCategory('lunch')
+    
     return (
         <div className='container'>
             <div className="row container">

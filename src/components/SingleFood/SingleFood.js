@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './SingleFood.css'
 const SingleFood = (props) => {
-    const { name, img, price, title, _id } = props.food
+    const { name, img, price, title, _id  } = props.food
     return (
         <div className='col-lg-4 col-md-6 p-2 mb-3'>
             <div className="cart p-3 m-3  text-center">

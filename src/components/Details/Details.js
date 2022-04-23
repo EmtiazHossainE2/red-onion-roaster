@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import useFoods from '../../hooks/useFoods';
 
 const Details = () => {
     const {detailsId} = useParams()
-    const [foods] = useFoods()
+    const [singleItem,setSingleItem] = useState({})
+    useEffect(() =>{
+        const url = `http://localhost:5000/service/${detailsId}`
+        fetch(url)
+        .then(res => res.json())
+        .then(data => setSingleItem(data))
+    },[detailsId])
 
-    const singleItem = foods.find((food) => food.id === (detailsId)
-    )
-    // console.log(singleItem)
 
     return (
         <div>

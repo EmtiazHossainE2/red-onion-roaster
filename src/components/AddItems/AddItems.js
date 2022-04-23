@@ -2,7 +2,7 @@ import React from 'react';
 import { useForm } from "react-hook-form";
 
 const AddItems = () => {
-    const { register, handleSubmit } = useForm();
+    const { register, handleSubmit ,reset} = useForm();
     const onSubmit = data => {
         console.log(data)
         const url = `http://localhost:5000/service`
@@ -17,7 +17,7 @@ const AddItems = () => {
         .then(result => {
             console.log(result);
             alert('User create successfully ')
-            // handleSubmit.reset()
+            reset()
         })
         .catch((error) => {
             console.error('Error:', error);

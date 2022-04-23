@@ -10,7 +10,7 @@ const Dinner = () => {
             <div className="row container">
                 {
                     dinner.map(food => <SingleFood
-                        key={food.id}
+                        key={food._id}
                         food={food}
                     ></SingleFood>)
                 }

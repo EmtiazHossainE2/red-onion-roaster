@@ -2,10 +2,10 @@ import React from 'react';
 import { useForm } from "react-hook-form";
 
 const AddItems = () => {
-    const { register, handleSubmit ,reset} = useForm();
+    const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         console.log(data)
-        const url = `http://localhost:5000/service`
+        const url = `https://em-red-onion-roaster.herokuapp.com/service`
         fetch(url, {
             method: "POST",
             headers: {
@@ -13,15 +13,15 @@ const AddItems = () => {
             },
             body: JSON.stringify(data),
         })
-        .then(res => res.json())
-        .then(result => {
-            console.log(result);
-            alert('User create successfully ')
-            reset()
-        })
-        .catch((error) => {
-            console.error('Error:', error);
-        });
+            .then(res => res.json())
+            .then(result => {
+                console.log(result);
+                alert('User create successfully ')
+                reset()
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
     };
 
 

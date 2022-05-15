@@ -2,14 +2,14 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
 const Details = () => {
-    const {detailsId} = useParams()
-    const [singleItem,setSingleItem] = useState({})
-    useEffect(() =>{
-        const url = `http://localhost:5000/service/${detailsId}`
+    const { detailsId } = useParams()
+    const [singleItem, setSingleItem] = useState({})
+    useEffect(() => {
+        const url = `https://em-red-onion-roaster.herokuapp.com/service/${detailsId}`
         fetch(url)
-        .then(res => res.json())
-        .then(data => setSingleItem(data))
-    },[detailsId])
+            .then(res => res.json())
+            .then(data => setSingleItem(data))
+    }, [detailsId])
 
 
     return (
@@ -25,7 +25,7 @@ const Details = () => {
                 </div>
                 <div className="col-md-6">
                     <div className='text-center'>
-                    <img className='w-75   rounded p-1' src={singleItem?.img} alt="img" />
+                        <img className='w-75   rounded p-1' src={singleItem?.img} alt="img" />
                     </div>
                 </div>
             </div>
